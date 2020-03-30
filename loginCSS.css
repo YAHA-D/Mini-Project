@@ -1,0 +1,39 @@
+body{
+	background-color: #219F8B;
+}
+.loginpage {
+	width: 360px;
+	padding: 10% 0 0;
+	margin: auto;
+}
+.form {
+	background-color: #ffff;
+	max-width: 360px;
+	padding: 45px;
+	text-align: center;
+}
+.form input {
+	
+	background: #F2F2F2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.form button {
+	background: #219F8B;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	font-size: 14px;
+	color: white;
+	cursor: pointer;
+}
+.form button:hover {
+	background: #022C25;
+}
+.form h1 {
+	color: #219F8B;
+}

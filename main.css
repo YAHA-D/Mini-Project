@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #219F8B;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  /* color of page name in sidebar */
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+  }
+   /* make the page name change color when selected*/
+  .sidebar a.active {
+    background-color: #212F3C;
+    color: white;
+  }
+  /* make the page name change color when hovering but not clicking*/
+  .sidebar a:hover:not(.active) {
+    background-color: #144044;
+    color: white;
+  }
+  /* align everything*/
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+    background-color: #ececec;
+  }
+  /* design of table in employees and earnings pages*/
+  .employees {
+    width: 100%;
+    margin-top: 120px;
+  }
+  /* space and border of each cell*/
+  .employees td, .employees th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  /* show that you are hovering on a row*/
+  .employees tr:hover {background-color: #ddd;}
+  /* design of table HEADER in employees and earnings pages*/
+  .employees th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #212F3C;
+    color: white;
+  }
+  /* design of the invoice box*/
+  .invoice-box {
+    max-width: 450px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+    font-size: 16px;
+    line-height: 25px;
+    color: #555;
+}
+ /* design of the title and info...*/
+ .invoice-box table td.invoicedata {
+  font-size: 15px;
+  padding-left: 72px;
+  padding-bottom: 100px;
+ }
+.invoice-box table td.title {
+    font-size: 45px;
+    line-height: 45px;
+    color: #333;
+}
+  /* design of button in invoice page*/
+.btn {
+    background-color: #144044;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  /* change the button color when hovoring in invoice page*/
+.btn:hover {
+    background-color: #212F3C;
+    color: white;
+  } 

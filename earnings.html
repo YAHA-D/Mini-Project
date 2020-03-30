@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Managment System</title>
+  <link href="main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Sidebar  -->
+<div class="sidebar">
+  <a href="home.html"><i class="fa fa-fw fa-home"></i> Home Page</a>
+  <a href="employees.html"><i class="fa fa-fw fa-user"></i> Employees</a>
+  <a href="invoice.html"><i class="fa fa-fw fa-credit-card"></i> Invoice</a>
+  <a class="active" href="earnings.html"><i class="fa fa-fw fa-dollar"></i> Earnings</a>
+</div>
+
+<div class="content">
+  <h2>Earnings</h2>
+<!-- Tabel  --> 
+<form name="myform">
+  <table class="employees">
+    <tr>
+        <th>#</th>
+        <th>Month</th>
+        <th>Sales</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>January</td>
+        <td> <input type="number" placeholder="Enter the earnings" name="n1"> </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>February</td>
+        <td> <input type="number" placeholder="Enter the earnings" name="n2"> </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>March</td>
+        <td> <input type="number" placeholder="Enter the earnings" name="n3"> </td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>April</td>
+        <td> <input type="number" placeholder="Enter the earnings" name="n4"> </td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>May</td>
+        <td> <input type="number" placeholder="Enter the earnings" name="n5"> </td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>June</td>
+        <td> <input type="number" placeholder="Enter the earnings" name="n6"> </td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>July</td>
+        <td> <input type="number" placeholder="Enter the earnings" name="n7"> </td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>August</td>
+        <td> <input type="number" placeholder="Enter the earnings" name="n8"> </td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>September</td>
+        <td> <input type="number" placeholder="Enter the earnings" name="n9"> </td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>October</td>
+        <td> <input type="number" placeholder="Enter the earnings" name="n10"> </td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>November</td>
+        <td> <input type="number" placeholder="Enter the earnings" name="n11"> </td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>December</td>
+        <td> <input type="number" placeholder="Enter the earnings" name="n12"> </td>
+    </tr>
+    
+    <tr>
+        <th></th>
+        <th></th>
+        <th> <input type="button" name="" class="btn" value="SHOW TOTAL" onclick="add()">
+            <output name="result"></output>
+        </th>
+    </tr>
+    </form>
+  </table>
+</div>
+ <script type="text/javascript">
+        function add(){
+             n1 = parseInt(myform.n1.value);
+             n2 = parseInt(myform.n2.value);
+             n3 = parseInt(myform.n3.value);
+             n4 = parseInt(myform.n4.value);
+             n5 = parseInt(myform.n5.value);
+             n6 = parseInt(myform.n6.value);
+             n7 = parseInt(myform.n7.value);
+             n8 = parseInt(myform.n8.value);
+             n9 = parseInt(myform.n9.value);
+             n10 = parseInt(myform.n10.value);
+             n11 = parseInt(myform.n11.value);
+             n12 = parseInt(myform.n12.value);
+             result = n1+n2+n3+n4+n5+n6+n7+n8+n9+n10+n11+n12;
+             myform.result.value=result;
+        }
+    </script>
+</body>
+</html>

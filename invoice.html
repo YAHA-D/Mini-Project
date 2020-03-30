@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Managment System</title>
+  <link href="main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- ============================================================== -->
+<!-- Left Sidebar                                                   -->
+<!-- ============================================================== -->
+<div class="sidebar">
+  <a href="home.html"><i class="fa fa-fw fa-home"></i> Home Page</a>
+  <a href="employees.html"><i class="fa fa-fw fa-user"></i> Employees</a>
+  <a class="active" href="invoice.html"><i class="fa fa-fw fa-credit-card"></i> Invoice</a>
+  <a href="earnings.html"><i class="fa fa-fw fa-dollar"></i> Earnings</a>
+</div>
+
+<div class="content">
+    <h2>Invoice</h2>
+<!-- ============================================================== -->
+<!-- Invoice Box - You can edited at css/main.css                   -->
+<!-- ============================================================== -->
+  <div class="invoice-box">
+    <table cellpadding="0" cellspacing="0">
+        <tr class="top">
+            <td colspan="2">
+                <table>
+                    <tr>
+                        <td class="title">
+                            <h4>INVOICE</h4>
+                        </td>
+                        
+                        <td class="invoicedata">
+                            Invoice Number: 123<br>
+                            Created: 1/1/2020<br>
+                            Last Day to Pay: 1/30/2020
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+        <tr class="information">
+            <td colspan="2">
+                <table>
+                    <tr>
+                        <td>
+                            <h3>Saudi Electric Company<h3><br>
+                        </td>
+                        
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+        <tr class="item">
+            <td>
+                Electric
+            </td>
+            
+            <td>
+                1500
+            </td>
+        </tr>
+        
+        <tr class="item">
+            <td>
+                TAX %5
+            </td>
+            
+            <td>
+                75
+            </td>
+        </tr>
+    
+        <tr class="total">
+            <td></td>
+            
+            <td>
+               Total: 1575 <button type="button" class="btn">Pay</button>
+            </td>
+        </tr>
+    </table>
+</div>
+</div>
+
+</body>
+</html>
